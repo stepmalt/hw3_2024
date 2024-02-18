@@ -214,8 +214,8 @@ first div in the grid  and place it in the grid. */
   text-align: center;
   padding: 20px;
   margin: auto;
-  grid-column: 2 / 3;
-}
+  display: block;
+ }
 
 /* Add your media query here */
 
@@ -234,7 +234,6 @@ first div in the grid  and place it in the grid. */
   .container {
     display: grid;
     grid-template-columns: 50px auto 500px auto 50px;
-    gap: 15px 0;
   }
 
   /* Steps 11 and 12: Update the grid-column property of the grid's children (where-needed)*/
@@ -252,6 +251,7 @@ first div in the grid  and place it in the grid. */
  .text-block {
   max-height: 250px;
   overflow: auto;
+
  }
 
 }
